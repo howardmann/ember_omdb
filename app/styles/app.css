@@ -1,0 +1,15 @@
+#movie-search {
+  border: 1px solid hotpink;
+  padding: 20px;
+}
+
+#movies {
+  border: 1px solid hotpink;
+  padding: 20px;
+}
+
+#movie {
+  border: 1px solid chartreuse;
+  margin-top: 10px;
+  padding: 0px 20px;
+}

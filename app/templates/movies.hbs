@@ -1,0 +1,12 @@
+<div id="movies">
+  <h2>Movie Search Form</h2>
+
+  <form {{action "search" movie on="submit"}} {{action "search" movie on="keyUp"}}>
+    {{input type="text" value=movie}}
+    <input type="submit">
+  </form>
+</div>
+
+<div id="movie">
+  {{outlet}}
+</div>

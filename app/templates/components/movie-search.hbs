@@ -1,0 +1,15 @@
+<div id="movie-search">
+  <h2>Movie Search Form</h2>
+
+  <form {{action "search" movie on="submit"}} {{action "search" movie on="keyUp"}}>
+    {{input type="text" value=movie}}
+    <input type="submit">
+  </form>
+
+  <h3>Search results</h3>
+  <div id="results">
+    <p>Title: <span class="title"></span></p>
+    <p>Poster:</p>
+    <p><img src="" class="poster"></p>
+  </div>
+</div>
